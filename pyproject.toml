@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "Cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="cubicpts"
+authors = [ {name = "Florian Wilsch", email="florian.wilsch@gmail.com"} ]
+version="0.1.0"
+dependencies=[
+    "numpy",
+    "sympy",
+    "Cython==3.0.0",
+]
+
+[tool.setuptools]
+packages=["cubicpts", "cubicpts.diagonal", "cubicpts.tr_quadratic"]

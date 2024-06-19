@@ -1,0 +1,1 @@
+recursive-include cubicpts *.py *.cpp *.pxd *.pyx *.h

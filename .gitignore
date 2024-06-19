@@ -1,0 +1,16 @@
+MANIFEST
+*.pyc
+*.so
+*.o
+*.c
+*.cpp
+.pylintrc
+.vscode/*
+build/*
+dist/*
+run/*
+cubicpts.egg-info
+!cubicpts/diagonal/*.cpp
+cubicpts/numbergenerator.DSYM/*
+*.plist
+*.DS_Store
